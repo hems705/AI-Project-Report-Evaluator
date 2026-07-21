@@ -1,0 +1,13 @@
+# Ignore environment variables & API keys
+.env
+.env*
+
+# Ignore Chroma DB folder
+chroma_db/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore PDFs just in case
+*.pdf

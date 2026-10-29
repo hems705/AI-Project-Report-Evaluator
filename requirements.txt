@@ -1,0 +1,10 @@
+streamlit
+pypdf
+sentence-transformers
+google-generativeai
+google-genai
+chromadb
+python-dotenv
+numpy
+fastapi
+uvicorn[standard]

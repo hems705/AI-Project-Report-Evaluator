@@ -1,13 +1,26 @@
-# Ignore environment variables & API keys
+# Secrets
 .env
-.env*
+.env.*
+!.env.example
+secrets.toml
+.streamlit/credentials.toml
 
-# Ignore Chroma DB folder
-chroma_db/
-
-# Ignore Python bytecode
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
+venv/
 
-# Ignore PDFs just in case
+# Local data and databases
+chroma_db/
+chroma_data/
+uploads/
 *.pdf
+!samples/*.pdf
+node.tar.gz
+*.tar.gz
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/

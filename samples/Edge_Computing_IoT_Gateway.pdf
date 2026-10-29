@@ -1,0 +1,40 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
+4 0 obj << /Length 720 >> stream
+BT
+/F1 12 Tf
+72 712 Td (Project Report: Intelligent Edge Computing Gateway for Industrial IoT) Tj
+0 -20 Td (Authors: Team EdgeTech - Electrical & Computer Engineering) Tj
+0 -30 Td (1. Problem Definition:) Tj
+0 -15 Td (Cloud-only IoT architectures suffer from high bandwidth costs and 250ms roundtrip latency.) Tj
+0 -15 Td (This project develops an edge gateway for real-time anomaly detection in vibration sensors.) Tj
+0 -30 Td (2. Technical Methodology:) Tj
+0 -15 Td (We deployed quantized MobileNetV2 models on a Raspberry Pi 4 running FreeRTOS and Linux.) Tj
+0 -15 Td (Sensors stream acceleration data at 1 kHz over an isolated RS-485 Modbus industrial bus.) Tj
+0 -30 Td (3. Implementation and Evidence:) Tj
+0 -15 Td (Custom PCB shield designed with galvanic isolation to protect against electrical surges.) Tj
+0 -15 Td (Firmware processes 1,000 samples/sec with 14ms local inference latency.) Tj
+0 -30 Td (4. Innovation:) Tj
+0 -15 Td (Novel dynamic weight pruning algorithm reduces memory footprint by 42% with no accuracy loss.) Tj
+0 -30 Td (5. Testing and Validation:) Tj
+0 -15 Td (Validated across 500 operating hours on a test motor rig; achieved 97.8% F1-score for bearing fault detection.) Tj
+0 -30 Td (6. Documentation and Reproducibility:) Tj
+0 -15 Td (Complete KiCad PCB design files, Docker container, and C++ source code provided on GitHub.) Tj
+ET
+endstream
+endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000001016 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+1095
+%%EOF
